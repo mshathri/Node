@@ -1,0 +1,1 @@
+cmd_uws := LD_LIBRARY_PATH=/opt/frappe/frappe-bench/apps/frappe/node_modules/uws/build/Release/lib.host:/opt/frappe/frappe-bench/apps/frappe/node_modules/uws/build/Release/lib.target:$$LD_LIBRARY_PATH; export LD_LIBRARY_PATH; cd ../.; cp "/opt/frappe/frappe-bench/apps/frappe/node_modules/uws/build/Release/uws.node" uws_linux_57.node
